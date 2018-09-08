@@ -1,0 +1,89 @@
+.header	{
+	@include size(100%, 100vh);
+	background: url('../images/bg-header.jpg') no-repeat top center;
+	background-size: cover;
+
+	&__menu {
+		@include size(100%);
+		margin: 50px;
+	}
+
+	&__logo {
+		font-family: Open Sans, sans-serif;
+		font-weight: 800;
+		font-size: 21px;
+		text-transform: uppercase;
+		float: left;
+
+		&-text {
+			color: #FFF;
+			text-decoration: none;
+		}
+
+	}
+
+	&__item {
+		float: right;
+		margin-right: 20px;
+
+		&-list {
+			font-family: Open Sans, sans-serif;
+			font-weight: 400;
+			font-size: 16px;
+			display: inline;
+			margin-left: 40px;
+			color: #FFF;
+			transition: none;
+			&:hover {
+				border: 1px solid #fff;
+				border-top-left-radius: 20px;
+				border-top-right-radius: 20px;
+				border-bottom-left-radius: 20px;
+				border-bottom-right-radius: 20px;
+				padding: 10px 20px;
+				cursor: pointer;
+			}
+		}
+	}
+
+	&__title {
+		padding-top: 225px;
+		margin: 0 auto;
+		text-align: center;
+
+		&-title {
+			font-family: Source Sans Pro, sans-serif;
+			font-weight: 400;
+			font-size: 35px;
+			color: #FFF;
+			margin-bottom: 40px;
+		}
+
+		&-text {
+			font-family: Open Sans, sans-serif;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 28px;
+			color: #FFF;
+		}
+	}
+
+	&__icon {
+		@include size(40px);
+		margin: 0 auto;
+		background: #19BD9A;
+		margin-top: 360px;
+		border-radius: 50%;
+		cursor: pointer;
+
+		&-scroll {
+			color: #FFF;
+			text-align: center;
+
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+
+}

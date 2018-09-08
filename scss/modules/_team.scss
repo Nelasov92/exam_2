@@ -1,0 +1,39 @@
+.team {
+	margin-top: 80px;
+	margin-bottom: 80px;
+
+	&__title {
+		text-align: center;
+
+		& h3 {
+			font-family: Source Sans Pro, sans-serif;
+			font-weight: 300;
+			font-size: 20px;
+			color: #333b46;
+			margin-bottom: 40px;
+		}
+
+		& p {
+			width: 460px;
+			font-family: Open Sans, sans-serif;
+			font-weight: 400;
+			font-size: 14px;
+			margin: 0 auto;
+			color: #81868E;
+		}
+	}
+
+	&__slick {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	&__slider {
+		display: flex;
+		justify-content: space-between;
+
+		&-slid {
+
+		}
+	}
+
+}
